@@ -20,7 +20,14 @@
     "run": {
         "configs": {
             "@inited": "true",
-            "json()": {}
+            "json()": {
+                "40": {
+                    "command": "first_programs/guesser.rb",
+                    "name": "40",
+                    "runner": "Ruby",
+                    "toolbar": true
+                }
+            }
         }
     },
     "welcome": {
